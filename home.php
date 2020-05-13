@@ -1,0 +1,3 @@
+<?php 
+	echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ipsam quibusdam rem totam et saepe sed nihil expedita aspernatur veritatis odit, illum quisquam vitae voluptate facere ut laborum. Consequuntur debitis nihil aspernatur nobis accusantium quia ullam eum animi nostrum ipsam dolorum laudantium, ducimus quasi praesentium iste magnam exercitationem neque voluptatum natus, placeat aut. Obcaecati reiciendis quisquam quod, asperiores iusto nisi blanditiis veniam! Cum aliquid at eius magni quis cumque temporibus quasi numquam totam nihil incidunt impedit commodi, inventore voluptates odit sit dolorem sequi quidem amet, consequatur. Quia quidem dolores, eaque nulla, distinctio, fuga beatae sit nostrum repudiandae enim sunt voluptatum.'
+ ?>

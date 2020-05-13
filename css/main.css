@@ -1,0 +1,260 @@
+/* branding color: #d6b161; */
+* {
+    font-weight: 400;
+    font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 400;   
+}
+h1, h2,h3, h4 {
+    letter-spacing: 2px;
+}
+h5 {
+    margin-bottom: 30px;
+    letter-spacing: 1px;   
+    font-size: 17px;
+}
+hr {
+    margin: 0;    
+}
+section {
+    padding: 100px 0;
+}
+p {
+    margin-bottom: 30px;
+    line-height: 2;
+    color: #7e7e7e;
+    font-size: 14px;
+}
+ul.circled-list {
+    margin-bottom: 40px;
+    line-height: 2;
+    padding-left: 18px;
+    list-style-type: circle;
+}
+ul.arrow-list {
+    padding: 0;
+    list-style-type: none;
+}
+ul.arrow-list a{
+    color: #a2a2a2;
+    line-height: 3;
+    font-size: 14px;
+    transition: all .3s ;
+}
+ul.arrow-list a:hover{
+    text-decoration: none;
+    color: #d6b161;
+}
+ul.arrow-list li:before {
+    content: ">";
+    padding-right: 15px;
+}
+ul.arrow-list li {
+    border-bottom: 1px solid #333;
+    font-size: 14px;
+}
+.btn {
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    background-color: #222;
+    color: #fff;    
+    font-size: 12px;
+    transition: all .3s linear;
+}
+.btn:hover {
+    background-color: #d6b161;
+    color: #fff;
+}
+.bubble.comment {
+    position: relative;
+    margin-bottom: 14px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.bubble.comment p {
+    margin-bottom: 0;
+}
+.bubble.comment .triangle {
+    position: absolute;
+    bottom: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0 14px;
+    border-color: #f5f5f5 transparent transparent transparent;
+}
+.heading-title {
+    margin-bottom: 100px;
+}
+.heading-title h4 {
+    font-size: 22px;
+}
+.heading-title p {
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.social-media a {
+    display: inline-block;
+    border: 1px solid #5a5a5a;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #5a5a5a;  
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;    
+    border-radius: 50%;
+}
+.social-media a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255,255,255,.3);
+}
+.social-media li {
+    margin: 0;
+    margin-left: 10px;
+}
+/* #header */
+#header {
+    padding: 0 30px;
+}
+nav {
+    line-height: 100px;
+    font-size: 13px;
+}
+nav a {
+    font-size: 13px;
+    color: #333;
+}
+.nav-link {
+    padding: 0 1rem;
+}
+.nav-link a:hover {
+    color: #333;
+} 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:#333;
+    background-color: transparent;
+}
+/* .header */
+.header {
+    
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h4 {
+    font-size: 24px;
+    color: white;
+}
+.breadcrumb {
+    background-color: rgba(0,0,0,.7);
+    letter-spacing: 1px;     
+}
+.breadcrumb li {
+    font-size: 12px;
+}
+.breadcrumb a {
+    text-decoration: none; 
+    color: #7e7e7e;
+    font-size: 12px;      
+}
+.breadcrumb a:hover {
+    color: white;
+    transition: all 0.3s;
+}
+.breadcrumb-item.active {
+    color: white;
+    font-size: 12px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+}
+
+/* services */
+.services h5 {
+    margin-bottom: 18px;
+}
+.services .col-sm-6 {
+    margin-bottom: 80px;
+}
+/* other-services */
+.other-services {
+    background-image: url(http://massive.markup.themebucket.net/assets/img/parallax/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+}
+.other-services h5 {
+    margin-bottom: 20px;
+}
+.other-services p {
+    color: white;    
+}
+.other-services hr {
+    margin: 30px auto;
+    border-top: 2px solid white;
+    width: 36px;   
+}
+/* special service */
+.special-services .subtitle{
+    color: #d6b161;
+    letter-spacing: 1px;
+}
+.special-services h5 {
+    margin-bottom: 40px;
+}
+/* why us */
+.testimonial-meta {
+    margin-top: 15px;
+}
+.testimonial-meta .name {    
+    font-size: 14px;
+}
+.testimonial-meta .title {
+    font-size: 12px;
+    letter-spacing: 1px;    
+}
+/* #footer */
+#footer {
+    background-color: #222;
+}
+#footer>.container {
+    padding: 80px 15px;
+}
+#footer .buttom {
+    background-color: #1b1b1b;
+}
+#footer h6 {
+    margin-bottom: 30px;
+    color: white;
+}
+#footer .recent-work li {
+    margin-bottom: 10px;
+}
+#footer .bottom {
+    border-top: 1px solid #2c2c2c;
+    padding: 35px 0px;
+    background-color: #1b1b1b;
+    color: #6f7273;
+}
+#footer .copyright {
+    line-height: 35px;
+    font-size: 14px;
+}
+#footer .copyright a {
+    color: white;    
+}
+#footer .copyright a:hover {
+    color: #d6b161;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#footer .bottom ul {
+    margin-bottom: 0;
+}
